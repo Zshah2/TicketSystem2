@@ -18,7 +18,7 @@ function handleLogin(event) {
     localStorage.setItem("loggedIn", "true");
 
     // Redirect to the ticketing page
-    window.location.href = "/TicketListPage/view-tickets.html";  // Ensure path is correct
+    window.location.href = ../TicketListPage/view-tickets.html";  // Ensure path is correct
   } else {
     // Show error message if credentials are incorrect
     document.getElementById("error-message").classList.remove("hidden");
